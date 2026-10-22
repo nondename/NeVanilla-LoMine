@@ -1,5 +1,5 @@
 {
-  "version": "0.1.8",
+  "version": "0.1.9",
   "servers": [
     {
       "id": "NeVanilla-LoMine-1.20.1",
@@ -481,15 +481,6 @@
             "url": "https://raw.githubusercontent.com/nondename/Minecraft-Legends-of-Medieval/41dc176ce66b569e998e7741bdcdb8c783568ee4/mods/oculus-mc1.20.1-1.8.0.jar",
             "path": "mods/oculus-mc1.20.1-1.8.0.jar"
           }
-        },
-        {
-          "id": "ColdSweat-2.4.4.jar",
-          "name": "Cold Sweat",
-          "type": "File",
-          "artifact": {
-            "url": "https://mediafilez.forgecdn.net/files/9215/370/ColdSweat-2.4.4.jar",
-            "path": "mods/ColdSweat-2.4.4.jar"
-          }
         }
       ]
     }
@@ -499,6 +490,7 @@
     "mods/domum_ornamentum-1.20.1-1.0.296-universal.jar",
     "mods/minecolonies-1.20.1-1.1.1301.jar",
     "mods/multipiston-1.20-1.2.43-RELEASE.jar",
-    "mods/structurize-1.20.1-1.0.818.jar"
+    "mods/structurize-1.20.1-1.0.818.jar",
+    "mods/ColdSweat-2.4.4.jar"
   ]
 }
