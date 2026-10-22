@@ -1,11 +1,11 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "servers": [
     {
       "id": "NeVanilla-LoMine-1.20.1",
       "name": "NeVanilla LoM",
-      "description": "NeVanilla 0.1.0 - Minecraft 1.20.1 / Forge 47.4.22",
-      "version": "0.1.0",
+      "description": "NeVanilla 0.1.1 - Minecraft 1.20.1 / Forge 47.4.22",
+      "version": "0.1.1",
       "address": "localhost:25565",
       "minecraftVersion": "1.20.1",
       "mainServer": false,
@@ -526,16 +526,6 @@
             "url": "https://raw.githubusercontent.com/nondename/Minecraft-Legends-of-Medieval/41dc176ce66b569e998e7741bdcdb8c783568ee4/mods/embeddium-0.3.31%2Bmc1.20.1.jar",
             "MD5": "1dfb2ee49ce9ad5d484ff3eea0d628b7",
             "path": "mods/embeddium-0.3.31+mc1.20.1.jar"
-          }
-        },
-        {
-          "id": "Paxi-1.20-Forge-4.0.jar",
-          "name": "Paxi - Global Data Packs",
-          "type": "File",
-          "artifact": {
-            "size": 96892,
-            "url": "https://cdn.modrinth.com/data/CU0PAyzb/versions/C7buFh0l/Paxi-1.20-Forge-4.0.jar",
-            "path": "mods/Paxi-1.20-Forge-4.0.jar"
           }
         }
       ]
