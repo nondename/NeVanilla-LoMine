@@ -1,11 +1,11 @@
 {
-  "version": "0.1.5",
+  "version": "0.1.6",
   "servers": [
     {
       "id": "NeVanilla-LoMine-1.20.1",
       "name": "NeVanilla LoM",
       "description": "NeVanilla 0.1.3 - Minecraft 1.20.1 / Forge 47.4.22",
-      "version": "0.1.5",
+      "version": "0.1.6",
       "address": "localhost:25565",
       "minecraftVersion": "1.20.1",
       "mainServer": false,
@@ -525,6 +525,16 @@
             "url": "https://cdn.modrinth.com/data/R6NEzAwj/versions/VMHXIk50/ComplementaryUnbound_r5.8.1.zip",
             "SHA1": "af656a33be2cbd217ea08986ad2cdd76f6bbfe1c",
             "path": "shaderpacks/ComplementaryUnbound_r5.8.1.zip"
+          }
+        },
+        {
+          "id": "oculus-mc1.20.1-1.8.0.jar",
+          "name": "Oculus Shaders",
+          "type": "File",
+          "artifact": {
+            "size": 2851119,
+            "url": "https://raw.githubusercontent.com/nondename/Minecraft-Legends-of-Medieval/41dc176ce66b569e998e7741bdcdb8c783568ee4/mods/oculus-mc1.20.1-1.8.0.jar",
+            "path": "mods/oculus-mc1.20.1-1.8.0.jar"
           }
         }
       ]
