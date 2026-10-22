@@ -1,11 +1,11 @@
 {
-  "version": "0.1.2",
+  "version": "0.1.3",
   "servers": [
     {
       "id": "NeVanilla-LoMine-1.20.1",
       "name": "NeVanilla LoM",
-      "description": "NeVanilla 0.1.2 - Minecraft 1.20.1 / Forge 47.4.22",
-      "version": "0.1.2",
+      "description": "NeVanilla 0.1.3 - Minecraft 1.20.1 / Forge 47.4.22",
+      "version": "0.1.3",
       "address": "localhost:25565",
       "minecraftVersion": "1.20.1",
       "mainServer": false,
@@ -504,6 +504,17 @@
             "url": "https://raw.githubusercontent.com/nondename/Minecraft-Legends-of-Medieval/41dc176ce66b569e998e7741bdcdb8c783568ee4/mods/embeddium-0.3.31%2Bmc1.20.1.jar",
             "MD5": "1dfb2ee49ce9ad5d484ff3eea0d628b7",
             "path": "mods/embeddium-0.3.31+mc1.20.1.jar"
+          }
+        },
+        {
+          "id": "ComplementaryUnbound_r5.8.1.zip",
+          "name": "Complementary Shaders - Unbound r5.8.1",
+          "type": "File",
+          "artifact": {
+            "size": 546928,
+            "url": "https://cdn.modrinth.com/data/R6NEzAwj/versions/VMHXIk50/ComplementaryUnbound_r5.8.1.zip",
+            "SHA1": "af656a33be2cbd217ea08986ad2cdd76f6bbfe1c",
+            "path": "shaderpacks/ComplementaryUnbound_r5.8.1.zip"
           }
         }
       ]
