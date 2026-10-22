@@ -1,5 +1,5 @@
 {
-  "version": "0.1.9",
+  "version": "0.2.0",
   "servers": [
     {
       "id": "NeVanilla-LoMine-1.20.1",
@@ -480,6 +480,33 @@
             "size": 2851119,
             "url": "https://raw.githubusercontent.com/nondename/Minecraft-Legends-of-Medieval/41dc176ce66b569e998e7741bdcdb8c783568ee4/mods/oculus-mc1.20.1-1.8.0.jar",
             "path": "mods/oculus-mc1.20.1-1.8.0.jar"
+          }
+        },
+        {
+          "id": "Paxi-1.20-Forge-4.0.jar",
+          "name": "Paxi",
+          "type": "File",
+          "artifact": {
+            "url": "https://mediafilez.forgecdn.net/files/4749/994/Paxi-1.20-Forge-4.0.jar",
+            "path": "mods/Paxi-1.20-Forge-4.0.jar"
+          }
+        },
+        {
+          "id": "YungsApi-1.20-Forge-4.0.6.jar",
+          "name": "YUNG's API",
+          "type": "File",
+          "artifact": {
+            "url": "https://mediafilez.forgecdn.net/files/5769/971/YungsApi-1.20-Forge-4.0.6.jar",
+            "path": "mods/YungsApi-1.20-Forge-4.0.6.jar"
+          }
+        },
+        {
+          "id": "nevanilla-wool-insulation.zip",
+          "name": "NeVanilla wool insulation",
+          "type": "File",
+          "artifact": {
+            "url": "https://raw.githubusercontent.com/nondename/NeVanilla-LoMine/a2bf5ea377ced786b03ca7554c9a71b43aeab0f2/datapacks/nevanilla-wool-insulation.zip",
+            "path": "config/paxi/datapacks/nevanilla-wool-insulation.zip"
           }
         }
       ]
