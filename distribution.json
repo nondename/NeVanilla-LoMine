@@ -507,17 +507,6 @@
           }
         },
         {
-          "id": "RegionsUnexploredForge-0.5.6+1.20.1.jar",
-          "name": "RegionsUnexploredForge-0.5.6+1.20.1.jar",
-          "type": "File",
-          "artifact": {
-            "size": 5726781,
-            "url": "https://raw.githubusercontent.com/nondename/Minecraft-Legends-of-Medieval/41dc176ce66b569e998e7741bdcdb8c783568ee4/mods/RegionsUnexploredForge-0.5.6%2B1.20.1.jar",
-            "MD5": "82c3073f606044e7b56d432d324ca480",
-            "path": "mods/RegionsUnexploredForge-0.5.6+1.20.1.jar"
-          }
-        },
-        {
           "id": "SereneSeasons-forge-1.20.1-9.1.0.3.jar",
           "name": "Serene Seasons",
           "type": "File",
