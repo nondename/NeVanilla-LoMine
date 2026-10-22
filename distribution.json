@@ -1,5 +1,5 @@
 {
-  "version": "0.1.6",
+  "version": "0.1.7",
   "servers": [
     {
       "id": "NeVanilla-LoMine-1.20.1",
@@ -66,17 +66,6 @@
           }
         },
         {
-          "id": "blockui-1.20.1-1.0.193.jar",
-          "name": "blockui-1.20.1-1.0.193.jar",
-          "type": "File",
-          "artifact": {
-            "size": 391010,
-            "url": "https://raw.githubusercontent.com/nondename/Minecraft-Legends-of-Medieval/41dc176ce66b569e998e7741bdcdb8c783568ee4/mods/blockui-1.20.1-1.0.193.jar",
-            "MD5": "b8cbcddb7e1ff76483e5f7045300ce97",
-            "path": "mods/blockui-1.20.1-1.0.193.jar"
-          }
-        },
-        {
           "id": "carryon-forge-1.20.1-2.1.2.7.jar",
           "name": "Carry On",
           "type": "File",
@@ -129,17 +118,6 @@
             "url": "https://raw.githubusercontent.com/nondename/Minecraft-Legends-of-Medieval/41dc176ce66b569e998e7741bdcdb8c783568ee4/mods/curios-forge-5.14.1%2B1.20.1.jar",
             "MD5": "2fdcc97cbc66c4b2492b407c792e7159",
             "path": "mods/curios-forge-5.14.1+1.20.1.jar"
-          }
-        },
-        {
-          "id": "domum_ornamentum-1.20.1-1.0.296-universal.jar",
-          "name": "domum_ornamentum-1.20.1-1.0.296-universal.jar",
-          "type": "File",
-          "artifact": {
-            "size": 1141555,
-            "url": "https://raw.githubusercontent.com/nondename/Minecraft-Legends-of-Medieval/41dc176ce66b569e998e7741bdcdb8c783568ee4/mods/domum_ornamentum-1.20.1-1.0.296-universal.jar",
-            "MD5": "2a29092b7f67ac477f253c44d3d0463c",
-            "path": "mods/domum_ornamentum-1.20.1-1.0.296-universal.jar"
           }
         },
         {
@@ -341,17 +319,6 @@
           }
         },
         {
-          "id": "minecolonies-1.20.1-1.1.1301.jar",
-          "name": "minecolonies-1.20.1-1.1.1301.jar",
-          "type": "File",
-          "artifact": {
-            "size": 78186865,
-            "url": "https://raw.githubusercontent.com/nondename/Minecraft-Legends-of-Medieval/41dc176ce66b569e998e7741bdcdb8c783568ee4/mods/minecolonies-1.20.1-1.1.1301.jar",
-            "MD5": "7ca79d10d94bc99d79db9a11c03fd757",
-            "path": "mods/minecolonies-1.20.1-1.1.1301.jar"
-          }
-        },
-        {
           "id": "moonlight-1.20-2.16.35-forge.jar",
           "name": "Moonlight Library",
           "type": "File",
@@ -360,17 +327,6 @@
             "url": "https://raw.githubusercontent.com/nondename/Minecraft-Legends-of-Medieval/41dc176ce66b569e998e7741bdcdb8c783568ee4/mods/moonlight-1.20-2.16.35-forge.jar",
             "MD5": "e679bad3fe734d0ef14104487ffaddb3",
             "path": "mods/moonlight-1.20-2.16.35-forge.jar"
-          }
-        },
-        {
-          "id": "multipiston-1.20-1.2.43-RELEASE.jar",
-          "name": "multipiston-1.20-1.2.43-RELEASE.jar",
-          "type": "File",
-          "artifact": {
-            "size": 38718,
-            "url": "https://raw.githubusercontent.com/nondename/Minecraft-Legends-of-Medieval/41dc176ce66b569e998e7741bdcdb8c783568ee4/mods/multipiston-1.20-1.2.43-RELEASE.jar",
-            "MD5": "48f2e9c30652069194b23e987a1d35ce",
-            "path": "mods/multipiston-1.20-1.2.43-RELEASE.jar"
           }
         },
         {
@@ -473,17 +429,6 @@
           }
         },
         {
-          "id": "structurize-1.20.1-1.0.818.jar",
-          "name": "structurize-1.20.1-1.0.818.jar",
-          "type": "File",
-          "artifact": {
-            "size": 1129459,
-            "url": "https://raw.githubusercontent.com/nondename/Minecraft-Legends-of-Medieval/41dc176ce66b569e998e7741bdcdb8c783568ee4/mods/structurize-1.20.1-1.0.818.jar",
-            "MD5": "61838a2791450efb6a0c15f5d173c802",
-            "path": "mods/structurize-1.20.1-1.0.818.jar"
-          }
-        },
-        {
           "id": "TreeChop-1.20.1-forge-0.19.0-fixed.jar",
           "name": "HT's TreeChop",
           "type": "File",
@@ -540,5 +485,11 @@
       ]
     }
   ],
-  "delete": []
+  "delete": [
+    "mods/blockui-1.20.1-1.0.193.jar",
+    "mods/domum_ornamentum-1.20.1-1.0.296-universal.jar",
+    "mods/minecolonies-1.20.1-1.1.1301.jar",
+    "mods/multipiston-1.20-1.2.43-RELEASE.jar",
+    "mods/structurize-1.20.1-1.0.818.jar"
+  ]
 }
