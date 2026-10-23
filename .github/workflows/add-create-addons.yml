@@ -1,0 +1,56 @@
+name: Add Create addons to NeVanilla
+on:
+  push:
+    paths:
+      - '.github/workflows/add-create-addons.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Resolve and verify mod files, update launcher manifest
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json, urllib.request, urllib.parse, hashlib, zipfile, io, pathlib
+          p=pathlib.Path('distribution.json')
+          data=json.loads(p.read_text(encoding='utf-8'))
+          mods=[
+            ('Create: Copycats+', 'copycats', 'copycats-3.0.10+mc.1.20.1-forge.jar', 8822431),
+            ('Create: New Age', 'create-new-age', 'create-new-age-1.2.0+forge-mc1.20.1.jar', 8215201),
+            ('Create Crafts & Additions', 'createaddition', 'createaddition-1.20.1-1.3.3.jar', 7208610),
+          ]
+          def download(url):
+            req=urllib.request.Request(url,headers={'User-Agent':'NeVanilla-LoMine updater/1.0'})
+            with urllib.request.urlopen(req,timeout=90) as response: return response.read()
+          for name,project,filename,fileid in mods:
+            print('Resolving',name,filename,flush=True)
+            try:
+              versions=json.loads(download('https://api.modrinth.com/v2/project/'+project+'/version?loaders=%5B%22forge%22%5D&game_versions=%5B%221.20.1%22%5D'))
+              found=next(f for v in versions for f in v['files'] if f['filename']==filename)
+              url=found['url']
+            except Exception as exc:
+              print('Modrinth lookup failed:',exc,'; using CurseForge CDN')
+              url='https://mediafilez.forgecdn.net/files/'+str(fileid//1000)+'/'+str(fileid%1000)+'/'+urllib.parse.quote(filename)
+            payload=download(url)
+            if not zipfile.is_zipfile(io.BytesIO(payload)): raise ValueError('Not a JAR: '+filename)
+            size=len(payload)
+            md5=hashlib.md5(payload).hexdigest()
+            print(filename,size,md5,flush=True)
+            module={'id':filename,'name':name,'type':'File','artifact':{'size':size,'url':url,'MD5':md5,'path':'mods/'+filename}}
+            for server in data['servers']:
+              server['modules']=[m for m in server['modules'] if m.get('name')!=name and m.get('id')!=filename]
+              server['modules'].append(module)
+          data['version']='0.2.3'
+          for server in data['servers']: server['version']='0.2.3'
+          p.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          PY
+      - name: Commit updated distribution
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add distribution.json
+          git diff --cached --quiet || (git commit -m "Add Copycats+, New Age and Crafts & Additions to NeVanilla 0.2.3" && git push)
