@@ -1,5 +1,5 @@
 {
-  "version": "0.2.0",
+  "version": "0.2.1",
   "servers": [
     {
       "id": "NeVanilla-LoMine-1.20.1",
@@ -165,39 +165,6 @@
           }
         },
         {
-          "id": "InkSpellBooks-LoM-Addon-1.0.0.jar",
-          "name": "InkSpellBooks-LoM-Addon-1.0.0.jar",
-          "type": "File",
-          "artifact": {
-            "size": 16053,
-            "url": "https://raw.githubusercontent.com/nondename/Minecraft-Legends-of-Medieval/41dc176ce66b569e998e7741bdcdb8c783568ee4/mods/InkSpellBooks-LoM-Addon-1.0.0.jar",
-            "MD5": "baafe079351963309e2b79ec74e342d0",
-            "path": "mods/InkSpellBooks-LoM-Addon-1.0.0.jar"
-          }
-        },
-        {
-          "id": "irons_lib-1.20.1-2.1.0.jar",
-          "name": "Iron's Lib",
-          "type": "File",
-          "artifact": {
-            "size": 428969,
-            "url": "https://raw.githubusercontent.com/nondename/Minecraft-Legends-of-Medieval/41dc176ce66b569e998e7741bdcdb8c783568ee4/mods/irons_lib-1.20.1-2.1.0.jar",
-            "MD5": "5c73106c1323bf7fd01d5da09869444f",
-            "path": "mods/irons_lib-1.20.1-2.1.0.jar"
-          }
-        },
-        {
-          "id": "irons_spellbooks-1.20.1-3.16.3.jar",
-          "name": "Iron's Spells 'n Spellbooks",
-          "type": "File",
-          "artifact": {
-            "size": 15570397,
-            "url": "https://raw.githubusercontent.com/nondename/Minecraft-Legends-of-Medieval/41dc176ce66b569e998e7741bdcdb8c783568ee4/mods/irons_spellbooks-1.20.1-3.16.3.jar",
-            "MD5": "80430dfbfab4af59e45ffb9d4d601762",
-            "path": "mods/irons_spellbooks-1.20.1-3.16.3.jar"
-          }
-        },
-        {
           "id": "ItemPhysic_FORGE_v1.8.7_mc1.20.1.jar",
           "name": "ItemPhysic",
           "type": "File",
@@ -264,17 +231,6 @@
           }
         },
         {
-          "id": "legendarysurvivaloverhaul-1.20.1-2.3.23.1.jar",
-          "name": "Legendary Survival Overhaul",
-          "type": "File",
-          "artifact": {
-            "size": 3681245,
-            "url": "https://raw.githubusercontent.com/nondename/Minecraft-Legends-of-Medieval/41dc176ce66b569e998e7741bdcdb8c783568ee4/mods/legendarysurvivaloverhaul-1.20.1-2.3.23.1.jar",
-            "MD5": "dfc1f9f473ffcb6a4d1ff24a6f7cf46f",
-            "path": "mods/legendarysurvivaloverhaul-1.20.1-2.3.23.1.jar"
-          }
-        },
-        {
           "id": "legendarytabs-1.20.1-1.1.3.jar",
           "name": "Legendary Tabs",
           "type": "File",
@@ -327,17 +283,6 @@
             "url": "https://raw.githubusercontent.com/nondename/Minecraft-Legends-of-Medieval/41dc176ce66b569e998e7741bdcdb8c783568ee4/mods/moonlight-1.20-2.16.35-forge.jar",
             "MD5": "e679bad3fe734d0ef14104487ffaddb3",
             "path": "mods/moonlight-1.20-2.16.35-forge.jar"
-          }
-        },
-        {
-          "id": "OctoLib-FORGE-0.5.0.1+1.20.1.jar",
-          "name": "OctoLib",
-          "type": "File",
-          "artifact": {
-            "size": 424035,
-            "url": "https://raw.githubusercontent.com/nondename/Minecraft-Legends-of-Medieval/41dc176ce66b569e998e7741bdcdb8c783568ee4/mods/OctoLib-FORGE-0.5.0.1%2B1.20.1.jar",
-            "MD5": "6b2fd012966b13a96ce4f68ae42eab8c",
-            "path": "mods/OctoLib-FORGE-0.5.0.1+1.20.1.jar"
           }
         },
         {
@@ -481,33 +426,6 @@
             "url": "https://raw.githubusercontent.com/nondename/Minecraft-Legends-of-Medieval/41dc176ce66b569e998e7741bdcdb8c783568ee4/mods/oculus-mc1.20.1-1.8.0.jar",
             "path": "mods/oculus-mc1.20.1-1.8.0.jar"
           }
-        },
-        {
-          "id": "Paxi-1.20-Forge-4.0.jar",
-          "name": "Paxi",
-          "type": "File",
-          "artifact": {
-            "url": "https://mediafilez.forgecdn.net/files/4749/994/Paxi-1.20-Forge-4.0.jar",
-            "path": "mods/Paxi-1.20-Forge-4.0.jar"
-          }
-        },
-        {
-          "id": "YungsApi-1.20-Forge-4.0.6.jar",
-          "name": "YUNG's API",
-          "type": "File",
-          "artifact": {
-            "url": "https://mediafilez.forgecdn.net/files/5769/971/YungsApi-1.20-Forge-4.0.6.jar",
-            "path": "mods/YungsApi-1.20-Forge-4.0.6.jar"
-          }
-        },
-        {
-          "id": "nevanilla-wool-insulation.zip",
-          "name": "NeVanilla wool insulation",
-          "type": "File",
-          "artifact": {
-            "url": "https://raw.githubusercontent.com/nondename/NeVanilla-LoMine/a2bf5ea377ced786b03ca7554c9a71b43aeab0f2/datapacks/nevanilla-wool-insulation.zip",
-            "path": "config/paxi/datapacks/nevanilla-wool-insulation.zip"
-          }
         }
       ]
     }
@@ -518,6 +436,14 @@
     "mods/minecolonies-1.20.1-1.1.1301.jar",
     "mods/multipiston-1.20-1.2.43-RELEASE.jar",
     "mods/structurize-1.20.1-1.0.818.jar",
-    "mods/ColdSweat-2.4.4.jar"
+    "mods/ColdSweat-2.4.4.jar",
+    "mods/legendarysurvivaloverhaul-1.20.1-2.3.23.1.jar",
+    "mods/irons_spellbooks-1.20.1-3.16.3.jar",
+    "mods/irons_lib-1.20.1-2.1.0.jar",
+    "mods/InkSpellBooks-LoM-Addon-1.0.0.jar",
+    "mods/OctoLib-FORGE-0.5.0.1+1.20.1.jar",
+    "mods/Paxi-1.20-Forge-4.0.jar",
+    "mods/YungsApi-1.20-Forge-4.0.6.jar",
+    "config/paxi/datapacks/nevanilla-wool-insulation.zip"
   ]
 }
