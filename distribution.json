@@ -1,5 +1,5 @@
 {
-  "version": "0.2.1",
+  "version": "0.2.2",
   "servers": [
     {
       "id": "NeVanilla-LoMine-1.20.1",
@@ -385,17 +385,6 @@
           }
         },
         {
-          "id": "waystones-forge-1.20.1-14.1.20.jar",
-          "name": "Waystones",
-          "type": "File",
-          "artifact": {
-            "size": 533738,
-            "url": "https://raw.githubusercontent.com/nondename/Minecraft-Legends-of-Medieval/41dc176ce66b569e998e7741bdcdb8c783568ee4/mods/waystones-forge-1.20.1-14.1.20.jar",
-            "MD5": "eb4dcdc36470b7fd858c39547ad1c7d2",
-            "path": "mods/waystones-forge-1.20.1-14.1.20.jar"
-          }
-        },
-        {
           "id": "embeddium-0.3.31+mc1.20.1.jar",
           "name": "Embeddium",
           "type": "File",
@@ -444,6 +433,7 @@
     "mods/OctoLib-FORGE-0.5.0.1+1.20.1.jar",
     "mods/Paxi-1.20-Forge-4.0.jar",
     "mods/YungsApi-1.20-Forge-4.0.6.jar",
-    "config/paxi/datapacks/nevanilla-wool-insulation.zip"
+    "config/paxi/datapacks/nevanilla-wool-insulation.zip",
+    "mods/waystones-forge-1.20.1-14.1.20.jar"
   ]
 }
