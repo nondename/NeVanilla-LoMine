@@ -1,11 +1,11 @@
 {
-  "version": "0.2.3",
+  "version": "0.2.4",
   "servers": [
     {
       "id": "NeVanilla-LoMine-1.20.1",
       "name": "NeVanilla LoM",
       "description": "NeVanilla 0.1.3 - Minecraft 1.20.1 / Forge 47.4.22",
-      "version": "0.2.3",
+      "version": "0.2.4",
       "address": "localhost:25565",
       "minecraftVersion": "1.20.1",
       "mainServer": false,
@@ -447,6 +447,26 @@
             "url": "https://cdn.modrinth.com/data/kU1G12Nn/versions/9LgyB6Yb/createaddition-1.20.1-1.3.3.jar",
             "MD5": "1c0d2275ead3e4756d77ac5a86f135ab",
             "path": "mods/createaddition-1.20.1-1.3.3.jar"
+          }
+        },
+        {
+          "id": "nevanilla-ru-pack-meta",
+          "name": "NeVanilla RU metadata",
+          "type": "File",
+          "artifact": {
+            "size": 121,
+            "url": "https://raw.githubusercontent.com/nondename/NeVanilla-LoMine/main/resourcepacks/NeVanilla-RU/pack.mcmeta",
+            "path": "resourcepacks/NeVanilla-RU/pack.mcmeta"
+          }
+        },
+        {
+          "id": "nevanilla-ru-ftb-lang",
+          "name": "FTB Essentials RU",
+          "type": "File",
+          "artifact": {
+            "size": 3358,
+            "url": "https://raw.githubusercontent.com/nondename/NeVanilla-LoMine/main/resourcepacks/NeVanilla-RU/assets/ftbessentials/lang/ru_ru.json",
+            "path": "resourcepacks/NeVanilla-RU/assets/ftbessentials/lang/ru_ru.json"
           }
         }
       ]
