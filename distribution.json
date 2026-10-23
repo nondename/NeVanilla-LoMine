@@ -1,11 +1,11 @@
 {
-  "version": "0.2.2",
+  "version": "0.2.3",
   "servers": [
     {
       "id": "NeVanilla-LoMine-1.20.1",
       "name": "NeVanilla LoM",
       "description": "NeVanilla 0.1.3 - Minecraft 1.20.1 / Forge 47.4.22",
-      "version": "0.1.6",
+      "version": "0.2.3",
       "address": "localhost:25565",
       "minecraftVersion": "1.20.1",
       "mainServer": false,
@@ -414,6 +414,39 @@
             "size": 2851119,
             "url": "https://raw.githubusercontent.com/nondename/Minecraft-Legends-of-Medieval/41dc176ce66b569e998e7741bdcdb8c783568ee4/mods/oculus-mc1.20.1-1.8.0.jar",
             "path": "mods/oculus-mc1.20.1-1.8.0.jar"
+          }
+        },
+        {
+          "id": "copycats-3.0.10+mc.1.20.1-forge.jar",
+          "name": "Create: Copycats+",
+          "type": "File",
+          "artifact": {
+            "size": 2003713,
+            "url": "https://cdn.modrinth.com/data/UT2M39wf/versions/LlMxIysb/copycats-3.0.10%2Bmc.1.20.1-forge.jar",
+            "MD5": "a01e55fd62e02a141083f45865e72cfc",
+            "path": "mods/copycats-3.0.10+mc.1.20.1-forge.jar"
+          }
+        },
+        {
+          "id": "create-new-age-1.2.0+forge-mc1.20.1.jar",
+          "name": "Create: New Age",
+          "type": "File",
+          "artifact": {
+            "size": 1206077,
+            "url": "https://cdn.modrinth.com/data/FTeXqI9v/versions/7vnwbouk/create-new-age-1.2.0%2Bforge-mc1.20.1.jar",
+            "MD5": "c1a4979e40f82e168e8f20c92381b0e9",
+            "path": "mods/create-new-age-1.2.0+forge-mc1.20.1.jar"
+          }
+        },
+        {
+          "id": "createaddition-1.20.1-1.3.3.jar",
+          "name": "Create Crafts & Additions",
+          "type": "File",
+          "artifact": {
+            "size": 1577313,
+            "url": "https://cdn.modrinth.com/data/kU1G12Nn/versions/9LgyB6Yb/createaddition-1.20.1-1.3.3.jar",
+            "MD5": "1c0d2275ead3e4756d77ac5a86f135ab",
+            "path": "mods/createaddition-1.20.1-1.3.3.jar"
           }
         }
       ]
